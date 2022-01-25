@@ -14,3 +14,48 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.layout{
+  padding:2rem;
+}
+
+.pokemon_list{
+  cursor: pointer;
+}
+
+.paginationBttns {
+  display: flex;
+  margin-top: 1rem;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 6px 11px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid  gray;
+  color:  gray!important;
+  cursor: pointer;
+  font-size: 13px;
+  cursor: pointer;
+}
+.paginationBttns a:hover {
+color:  rgb(255, 255, 255);
+background-color:  rgb(7, 41, 61);
+}
+
+.paginationActive a {
+  color: #fff !important;
+    background-color: rgb(7, 41, 61);
+}
+
+
+.paginationDisabled a{
+  color: white;
+    background-color: #dcdcdc69;
+    border: 1px solid #dcdcdc69;
+    cursor:not-allowed
+}
